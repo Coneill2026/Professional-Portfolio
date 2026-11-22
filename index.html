@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A reusable professional portfolio website template." />
+    <meta name="theme-color" content="#102744" />
+    <title>Professional Portfolio | Your Name</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="assets/main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <nav class="site-nav shell" aria-label="Main navigation">
+        <a class="wordmark" href="#top" aria-label="Your name, home">
+          <span class="wordmark-mark" aria-hidden="true">YN</span>
+          <span>Your Name</span>
+        </a>
+        <div class="desktop-nav">
+          <a href="#about">01 About Me</a>
+          <a href="#learn-more">02 Learn More</a>
+          <a href="#projects">03 Projects</a>
+          <a href="#others">04 Others</a>
+          <a href="#profession">05 Industry</a>
+          <a href="#beyond">06 Beyond</a>
+          <a href="#developed">07 Development</a>
+          <a href="#next">08 Next steps</a>
+        </div>
+        <div class="nav-actions">
+          <button class="icon-button theme-toggle" type="button" aria-label="Switch colour theme" aria-pressed="false">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path>
+            </svg>
+          </button>
+          <a class="button button-small button-blue nav-contact" href="#contact">Contact</a>
+          <button class="icon-button menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-menu">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg>
+          </button>
+        </div>
+      </nav>
+      <nav class="mobile-menu shell" id="mobile-menu" aria-label="Mobile navigation" hidden>
+        <a href="#about">01 About Me</a><a href="#learn-more">02 Learn More</a>
+        <a href="#projects">03 Projects</a>
+        <a href="#others">04 What I Learned From Others</a><a href="#profession">05 Professional &amp; Industry</a>
+        <a href="#beyond">06 Beyond the Classroom</a><a href="#developed">07 How I Developed This Year</a>
+        <a href="#next">08 Where Am I Going Next?</a><a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero shell" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow eyebrow-light">Professional Portfolio</p>
+          <h1 id="hero-title">Your Name</h1>
+          <p class="hero-role">[Course or programme] · [University]</p>
+          <p class="hero-prompt">[Write a short introduction about who you are, what you are interested in, and the kind of work you want to do.]</p>
+          <div class="hero-actions">
+            <a class="button button-blue" href="#cv">My CV</a>
+            <a class="button button-outline" href="#linkedin-profile">LinkedIn <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="photo-placeholder" role="img" aria-label="Placeholder for a professional photograph">
+          <span class="photo-initials" aria-hidden="true">YN</span>
+          <span>Add professional photograph</span>
+        </div>
+      </section>
+
+      <div class="section-index-bar">
+        <div class="shell index-bar-inner">
+          <span>PORTFOLIO SECTIONS</span>
+          <span>01 — 08</span>
+          <span>Template · replace all placeholders</span>
+        </div>
+      </div>
+
+      <section class="section shell" id="about" aria-labelledby="about-title">
+        <div class="section-heading">
+          <p class="eyebrow">Section 01</p>
+          <h2 id="about-title">About Me</h2>
+          <p class="section-instruction">Introduce yourself as an emerging professional. Keep it personal, specific, and relevant to employers or residency partners.</p>
+        </div>
+        <div class="content-grid">
+          <article class="template-panel">
+            <h3>Professional biography</h3>
+            <p class="fill-in">[Add your professional biography, background, experience, strengths, and interests.]</p>
+          </article>
+          <article class="template-panel">
+            <h3>Profile details</h3>
+            <dl class="detail-list">
+              <div><dt>Course &amp; year</dt><dd>[Add your course and year of study]</dd></div>
+              <div><dt>Key skills</dt><dd>[List your strongest technical and transferable skills]</dd></div>
+              <div><dt>Career interests</dt><dd>[Name the areas or roles you want to explore]</dd></div>
+              <div><dt>Contact</dt><dd>[Add a professional email address]</dd></div>
+            </dl>
+            <div class="inline-links">
+              <a href="#linkedin-profile">LinkedIn ↗</a>
+              <a href="#github-profile">GitHub ↗</a>
+              <a href="#cv">My CV ↓</a>
+            </div>
+          </article>
+        </div>
+        <div class="brand-prompt"><strong>Personal brand &amp; presentation:</strong> [What do you want an employer to notice about your professional identity? Make your visual style, writing, evidence, and LinkedIn presence consistent and accessible.]</div>
+      </section>
+
+      <section class="section section-alt" id="learn-more" aria-labelledby="learn-more-title">
+        <div class="shell">
+          <div class="section-heading">
+            <p class="eyebrow">Section 02</p>
+            <h2 id="learn-more-title">Learn More</h2>
+              <p class="section-instruction">Describe your professional identity, strengths, aspirations, and three important values. Use examples from your experiences.</p>
+          </div>
+          <div class="content-grid two-col">
+            <article class="template-panel">
+              <h3>Professional identity &amp; strengths</h3>
+              <p class="fill-in">[What kind of colleague or professional do you want to be? What are your strengths? Give an example that demonstrates each one.]</p>
+              <h3 class="subheading">Career aspirations</h3>
+              <p class="fill-in">[What roles, industries, or problems interest you? Why?]</p>
+            </article>
+            <article class="template-panel">
+              <h3>My professional values</h3>
+              <div class="value-template">
+                <h4>Value 1: [Name]</h4>
+                <p>[Why does it matter? Give an example. How does it shape the way you work with others?]</p>
+              </div>
+              <div class="value-template">
+                <h4>Value 2: [Name]</h4>
+                <p>[Why does it matter? Give an example. How does it shape the way you work with others?]</p>
+              </div>
+              <div class="value-template">
+                <h4>Value 3: [Name]</h4>
+                <p>[Why does it matter? Give an example. How does it connect to your future career goals?]</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section shell" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading section-heading-row">
+        <div><p class="eyebrow">Section 03 · Selected work</p><h2 id="projects-title">Projects</h2></div>
+          <span class="section-index">PROJECTS / [ADD OR REMOVE CARDS]</span>
+        </div>
+        <p class="section-instruction project-instruction">Show what you made and what you learned. Replace each visual with a project image or screenshot, and duplicate or remove cards to fit your work.</p>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-card-top"><span>01 / [PROJECT TYPE]</span><span>[INDIVIDUAL / TEAM]</span></div>
+            <div class="project-visual project-visual-code" aria-hidden="true">
+              <div class="project-window">
+                <div class="project-window-bar"><i></i><i></i><i></i><span>PROJECT / 01</span></div>
+                <div class="project-code-lines"><span>01</span><i></i><span>02</span><i></i><span>03</span><i></i><span>04</span><i></i></div>
+              </div>
+            </div>
+            <div class="project-card-copy">
+              <p class="project-type">[Field · Context]</p>
+              <h3>[Project title]</h3>
+              <p>[What problem did it address? What did you build? Describe your role, decisions, outcome, and learning.]</p>
+              <div class="project-outcome"><span>TOOLS / SKILLS</span><strong>[Add tools and relevant skills]</strong></div>
+              <p class="project-evidence">[Add repository, demo, screenshot, or other evidence link]</p>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-card-top"><span>02 / [PROJECT TYPE]</span><span>[INDIVIDUAL / TEAM]</span></div>
+            <div class="project-visual project-visual-data" aria-hidden="true">
+              <div class="data-chart"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+              <span>PROJECT / 02</span>
+            </div>
+            <div class="project-card-copy">
+              <p class="project-type">[Field · Context]</p>
+              <h3>[Project title]</h3>
+              <p>[What problem did it address? What did you build? Describe your role, decisions, outcome, and learning.]</p>
+              <div class="project-outcome"><span>TOOLS / SKILLS</span><strong>[Add tools and relevant skills]</strong></div>
+              <p class="project-evidence">[Add repository, demo, screenshot, or other evidence link]</p>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-card-top"><span>03 / [PROJECT TYPE]</span><span>[INDIVIDUAL / TEAM]</span></div>
+            <div class="project-visual project-visual-interface" aria-hidden="true">
+              <div class="interface-card"><div class="interface-sidebar"></div><div class="interface-content"><i></i><i></i><i></i><b></b></div></div>
+            </div>
+            <div class="project-card-copy">
+              <p class="project-type">[Field · Context]</p>
+              <h3>[Project title]</h3>
+              <p>[What problem did it address? What did you build? Describe your role, decisions, outcome, and learning.]</p>
+              <div class="project-outcome"><span>TOOLS / SKILLS</span><strong>[Add tools and relevant skills]</strong></div>
+              <p class="project-evidence">[Add repository, demo, screenshot, or other evidence link]</p>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-card-top"><span>04 / [PROJECT TYPE]</span><span>[INDIVIDUAL / TEAM]</span></div>
+            <div class="project-visual project-visual-network" aria-hidden="true">
+              <div class="network-map"><i></i><i></i><i></i><i></i><b></b></div>
+              <span>PROJECT / 04</span>
+            </div>
+            <div class="project-card-copy">
+              <p class="project-type">[Field · Context]</p>
+              <h3>[Project title]</h3>
+              <p>[What problem did it address? What did you build? Describe your role, decisions, outcome, and learning.]</p>
+              <div class="project-outcome"><span>TOOLS / SKILLS</span><strong>[Add tools and relevant skills]</strong></div>
+              <p class="project-evidence">[Add repository, demo, screenshot, or other evidence link]</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-navy" id="others" aria-labelledby="others-title">
+        <div class="shell">
+          <div class="section-heading">
+            <p class="eyebrow eyebrow-light">Section 04</p>
+            <h2 id="others-title">What I Learned From Others</h2>
+            <p class="section-instruction">Use the reflection cards to record learning from speakers, industry talks, employer events, or other professional engagement.</p>
+          </div>
+          <div class="reflection-grid">
+            <article class="reflection-template">
+              <div class="card-heading"><span>Reflection 01</span><span>Speaker / event</span></div>
+              <h3>[Name of speaker or event]</h3>
+              <p><strong>Date:</strong> [Add date]</p>
+              <p><strong>Key message:</strong> [What was the main idea?]</p>
+              <p><strong>Surprised or challenged me:</strong> [What changed or questioned your thinking?]</p>
+              <p><strong>Career connection:</strong> [How could this influence your choices?]</p>
+              <p><strong>Evidence:</strong> [Add notes, photo, link, or event material]</p>
+            </article>
+            <article class="reflection-template">
+              <div class="card-heading"><span>Reflection 02</span><span>Speaker / event</span></div>
+              <h3>[Name of speaker or event]</h3>
+              <p><strong>Date:</strong> [Add date]</p>
+              <p><strong>Key message:</strong> [What was the main idea?]</p>
+              <p><strong>Surprised or challenged me:</strong> [What changed or questioned your thinking?]</p>
+              <p><strong>Career connection:</strong> [How could this influence your choices?]</p>
+              <p><strong>Evidence:</strong> [Add notes, photo, link, or event material]</p>
+            </article>
+            <article class="reflection-template">
+              <div class="card-heading"><span>Reflection 03</span><span>Speaker / event</span></div>
+              <h3>[Name of speaker or event]</h3>
+              <p><strong>Date:</strong> [Add date]</p>
+              <p><strong>Key message:</strong> [What was the main idea?]</p>
+              <p><strong>Surprised or challenged me:</strong> [What changed or questioned your thinking?]</p>
+              <p><strong>Career connection:</strong> [How could this influence your choices?]</p>
+              <p><strong>Evidence:</strong> [Add notes, photo, link, or event material]</p>
+            </article>
+            <article class="reflection-template">
+              <div class="card-heading"><span>Reflection 04</span><span>Speaker / event</span></div>
+              <h3>[Name of speaker or event]</h3>
+              <p><strong>Date:</strong> [Add date]</p>
+              <p><strong>Key message:</strong> [What was the main idea?]</p>
+              <p><strong>Surprised or challenged me:</strong> [What changed or questioned your thinking?]</p>
+              <p><strong>Career connection:</strong> [How could this influence your choices?]</p>
+              <p><strong>Evidence:</strong> [Add notes, photo, link, or event material]</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section shell" id="profession" aria-labelledby="profession-title">
+        <div class="section-heading">
+          <p class="eyebrow">Section 05</p>
+          <h2 id="profession-title">Professional &amp; Industry (Career Connect)</h2>
+          <p class="section-instruction">Reflect on Career Connect and engagement with employees or industry representatives. Consider your expectations, what you learned, memorable conversations, and actions you will take.</p>
+        </div>
+        <div class="prompt-grid">
+          <article class="prompt-card"><span>01</span><h3>Before</h3><p>[What did you expect? What did you want to find out?]</p></article>
+          <article class="prompt-card"><span>02</span><h3>What I learned</h3><p>[What did you learn about employers, teams, or residency opportunities?]</p></article>
+          <article class="prompt-card"><span>03</span><h3>Conversation</h3><p>[Which interaction stood out, and why?]</p></article>
+          <article class="prompt-card"><span>04</span><h3>Actions</h3><p>[What will you do next as a result?]</p></article>
+        </div>
+        <div class="evidence-line"><strong>Evidence:</strong> [Add event notes, photo, employer details, or follow-up.]</div>
+      </section>
+
+      <section class="section section-alt" id="beyond" aria-labelledby="beyond-title">
+        <div class="shell">
+          <div class="section-heading">
+            <p class="eyebrow">Section 06</p>
+            <h2 id="beyond-title">Beyond the Classroom</h2>
+            <p class="section-instruction">Reflect on active citizenship and community contribution: for example, volunteering, peer mentoring, societies, hackathons, leadership roles, class representation, or outreach. Add more activity cards as needed.</p>
+          </div>
+          <div class="activity-grid">
+            <article class="template-panel">
+              <span class="card-number">ACTIVITY / 01</span>
+              <h3>[Activity name]</h3>
+              <p><strong>My contribution:</strong> [What did you do?]</p>
+              <p><strong>Impact on others:</strong> [Who benefited, and how?]</p>
+              <p><strong>My development:</strong> [What did you learn or practise?]</p>
+              <p><strong>Evidence:</strong> [Add a photo, certificate, output, or testimonial]</p>
+            </article>
+            <article class="template-panel">
+              <span class="card-number">ACTIVITY / 02</span>
+              <h3>[Activity name]</h3>
+              <p><strong>My contribution:</strong> [What did you do?]</p>
+              <p><strong>Impact on others:</strong> [Who benefited, and how?]</p>
+              <p><strong>My development:</strong> [What did you learn or practise?]</p>
+              <p><strong>Evidence:</strong> [Add a photo, certificate, output, or testimonial]</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section shell" id="developed" aria-labelledby="developed-title">
+        <div class="section-heading">
+          <p class="eyebrow">Section 07</p>
+          <h2 id="developed-title">How I Developed This Year</h2>
+          <p class="section-instruction">For each significant activity, reflect on the situation, what you learned, how you applied it, and your next step. Examples include workshops, training, certifications, personal goals, technical projects, and team-based learning.</p>
+        </div>
+        <div class="required-evidence">
+          <article><span>REQUIRED EVIDENCE 01</span><h3>Library Skills Programme</h3><p>[Add completion date and evidence link or image.]</p></article>
+          <article><span>REQUIRED EVIDENCE 02</span><h3>Assignment Toolkit</h3><p>[Add completion date and evidence link or image.]</p></article>
+        </div>
+        <div class="development-table" role="table" aria-label="Professional development activity template">
+          <div class="development-row table-head" role="row">
+            <span role="columnheader">Activity / situation</span><span role="columnheader">What I learned</span><span role="columnheader">How I applied it</span><span role="columnheader">Next step</span><span role="columnheader">Evidence</span>
+          </div>
+          <div class="development-row" role="row">
+            <span role="cell">[Add activity]</span><span role="cell">[Add learning]</span><span role="cell">[Add application]</span><span role="cell">[Add next step]</span><span role="cell">[Link or artefact]</span>
+          </div>
+          <div class="development-row" role="row">
+            <span role="cell">[Add activity]</span><span role="cell">[Add learning]</span><span role="cell">[Add application]</span><span role="cell">[Add next step]</span><span role="cell">[Link or artefact]</span>
+          </div>
+          <div class="development-row" role="row">
+            <span role="cell">[Add activity]</span><span role="cell">[Add learning]</span><span role="cell">[Add application]</span><span role="cell">[Add next step]</span><span role="cell">[Link or artefact]</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="next" aria-labelledby="next-title">
+        <div class="shell">
+          <div class="section-heading">
+            <p class="eyebrow">Section 08</p>
+            <h2 id="next-title">Where Am I Going Next?</h2>
+            <p class="section-instruction">Create a 12-month career-development plan with realistic, measurable goals, actions, and target dates. Choose resources that support your development.</p>
+          </div>
+          <div class="goal-grid">
+            <article class="goal-template"><span>GOAL 01</span><h3>[Goal]</h3><p><strong>Why:</strong> [Why does it matter?]</p><p><strong>Actions:</strong> [What will you do?]</p><p><strong>Success measure:</strong> [How will you know you achieved it?]</p><p><strong>Target date:</strong> [Date]</p></article>
+            <article class="goal-template"><span>GOAL 02</span><h3>[Goal]</h3><p><strong>Why:</strong> [Why does it matter?]</p><p><strong>Actions:</strong> [What will you do?]</p><p><strong>Success measure:</strong> [How will you know you achieved it?]</p><p><strong>Target date:</strong> [Date]</p></article>
+            <article class="goal-template"><span>GOAL 03</span><h3>[Goal]</h3><p><strong>Why:</strong> [Why does it matter?]</p><p><strong>Actions:</strong> [What will you do?]</p><p><strong>Success measure:</strong> [How will you know you achieved it?]</p><p><strong>Target date:</strong> [Date]</p></article>
+            <article class="goal-template"><span>GOAL 04</span><h3>[Goal]</h3><p><strong>Why:</strong> [Why does it matter?]</p><p><strong>Actions:</strong> [What will you do?]</p><p><strong>Success measure:</strong> [How will you know you achieved it?]</p><p><strong>Target date:</strong> [Date]</p></article>
+            <article class="goal-template"><span>GOAL 05</span><h3>[Goal]</h3><p><strong>Why:</strong> [Why does it matter?]</p><p><strong>Actions:</strong> [What will you do?]</p><p><strong>Success measure:</strong> [How will you know you achieved it?]</p><p><strong>Target date:</strong> [Date]</p></article>
+          </div>
+          <div class="career-reflection">
+            <h3>Reflect on your future professional identity</h3>
+            <p><strong>How has your professional identity changed during this module?</strong> [Add your reflection.]</p>
+            <p><strong>What impression do you want employers to have of you?</strong> [Describe the professional profile you want to present.]</p>
+            <p><strong>What parts of your profile still need development?</strong> [Name the skills, evidence, or experiences you will build.]</p>
+          </div>
+          <div class="resource-section">
+            <div class="resource-intro">
+              <p class="eyebrow">Reading &amp; resource list</p>
+              <h3>Resources for my development</h3>
+              <p>[Add relevant books, podcasts, professional blogs, industry newsletters, technical documentation, websites, courses, career resources, or community events, with a brief note about each.]</p>
+            </div>
+            <ol class="resource-template-list">
+              <li><span>01</span><strong>[Resource title and link]</strong><small>[How will it support your development?]</small></li>
+              <li><span>02</span><strong>[Resource title and link]</strong><small>[How will it support your development?]</small></li>
+              <li><span>03</span><strong>[Resource title and link]</strong><small>[How will it support your development?]</small></li>
+              <li><span>04</span><strong>[Resource title and link]</strong><small>[How will it support your development?]</small></li>
+              <li><span>05</span><strong>[Resource title and link]</strong><small>[How will it support your development?]</small></li>
+              <li><span>06</span><strong>[Resource title and link]</strong><small>[How will it support your development?]</small></li>
+              <li><span>07</span><strong>[Resource title and link]</strong><small>[How will it support your development?]</small></li>
+              <li><span>08</span><strong>[Resource title and link]</strong><small>[How will it support your development?]</small></li>
+              <li><span>09</span><strong>[Resource title and link]</strong><small>[How will it support your development?]</small></li>
+              <li><span>10</span><strong>[Resource title and link]</strong><small>[How will it support your development?]</small></li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section shell" id="contact" aria-labelledby="contact-title">
+        <div class="contact-card">
+          <div><p class="eyebrow eyebrow-light">Contact</p><h2 id="contact-title">Get in touch</h2><p>[Add a short professional invitation to connect.]</p></div>
+          <div class="contact-details">
+            <div><span>EMAIL</span><p>[Add a professional email address]</p></div>
+            <div><span>LINKEDIN</span><p id="linkedin-profile">[Add LinkedIn profile URL]</p></div>
+            <div><span>GITHUB</span><p id="github-profile">[Optional: add GitHub URL]</p></div>
+            <div><span>MY CV</span><p id="cv">[Add a CV file or URL]</p></div>
+            <div><span>LOCATION</span><p>[City, country]</p></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer shell">
+      <div class="footer-bottom">
+        <a class="wordmark" href="#top"><span class="wordmark-mark" aria-hidden="true">YN</span><span>Your Name</span></a>
+        <p>Professional Portfolio · <span data-current-year>2026</span></p>
+        <a class="footer-link" href="#contact">Contact</a>
+      </div>
+    </footer>
+  </body>
+</html>
